@@ -1,0 +1,41 @@
+# محیط Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# متغیرهای محیطی (هرگز push نکن!)
+.env
+.env.local
+
+# فایل‌های بزرگ تولیدشده (کاربر باید خودش بسازه)
+chroma_db/
+embedded_hierarchical_chunks_2.json
+embedded_chunks.json
+output_chunks_1.json
+# فایل‌های موقت
+*.png
+*.log
+eval_results.json
+
+README1.md
+README22.md
+README (1).md
+wsl_.txt
+src/reed.txt
+src/txt.txt
+
+
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# macOS
+.DS_Store
+
+# فایل‌های cache
+.streamlit/

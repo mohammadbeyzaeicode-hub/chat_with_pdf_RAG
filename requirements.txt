@@ -1,0 +1,23 @@
+# پردازش PDF
+pymupdf>=1.27.0
+pdfplumber>=0.11.0
+
+# پردازش متن فارسی
+python-bidi>=0.6.0
+arabic-reshaper>=3.0.0
+
+# Embedding (مدل محلی)
+sentence-transformers>=3.0.0
+
+# Vector Store
+chromadb>=1.5.0
+
+# LLM
+openai>=1.0.0
+
+# رابط کاربری
+streamlit>=1.35.0
+
+# API
+fastapi>=0.110.0
+uvicorn>=0.29.0

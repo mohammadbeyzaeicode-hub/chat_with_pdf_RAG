@@ -1,0 +1,111 @@
+[
+  {
+    "id": 1,
+    "question": "ظرفیت مخزن سوخت چقدر است؟",
+    "expected_keywords": ["50", "لیتر", "۵۰"],
+    "expected_page": "8",
+    "category": "fact_simple"
+  },
+  {
+    "id": 2,
+    "question": "ظرفیت باک بنزین چقدر است؟",
+    "expected_keywords": ["50", "لیتر", "۵۰"],
+    "expected_page": "8",
+    "category": "fact_synonym",
+    "note": "همان سوال ۱ با کلمه‌ی مترادف 'باک' به‌جای 'مخزن سوخت' - تست تشخیص مترادف"
+  },
+  {
+    "id": 3,
+    "question": "ثبت‌کننده‌ی مسافت طی‌شده چطور صفر می‌شود؟",
+    "expected_keywords": ["دکمه", "دو ثانیه"],
+    "expected_page": "9",
+    "category": "fact_procedure"
+  },
+  {
+    "id": 4,
+    "question": "برای باز کردن جعبه داشبورد چه باید کرد؟",
+    "expected_keywords": ["دستگیره", "باال"],
+    "expected_page": "53",
+    "category": "fact_procedure"
+  },
+  {
+    "id": 5,
+    "question": "سیستم ضد سرقت خودرو (ایموبیلایزر) چطور کار می‌کند؟",
+    "expected_keywords": ["موتور", "خاموش"],
+    "expected_page": "25",
+    "category": "fact_explanation"
+  },
+  {
+    "id": 6,
+    "question": "قفل فرمان چطور باز می‌شود؟",
+    "expected_keywords": ["دسته فرمان", "کلید"],
+    "expected_page": "24",
+    "category": "fact_procedure"
+  },
+  {
+    "id": 7,
+    "question": "صندلی کودک گروه وزنی ۰ (کمتر از ۱۰ کیلوگرم) چه نوع صندلی نیاز دارد؟",
+    "expected_keywords": ["گهواره"],
+    "expected_page": "40-41",
+    "category": "table_lookup",
+    "note": "جواب فقط در جدول است - تست بازیابی جدول"
+  },
+  {
+    "id": 8,
+    "question": "برای فاصله‌ی مثلث ایمنی در بزرگراه در روز چند متر توصیه می‌شود؟",
+    "expected_keywords": ["100", "متر"],
+    "expected_page": "54",
+    "category": "table_lookup"
+  },
+  {
+    "id": 9,
+    "question": "آفتابگیر چه کاربردی دارد؟",
+    "expected_keywords": ["نور خورشید", "آینه"],
+    "expected_page": "53",
+    "category": "fact_explanation"
+  },
+  {
+    "id": 10,
+    "question": "ابزارهای موجود در فوم چرخ زاپاس چیست؟",
+    "expected_keywords": ["آچار", "جک"],
+    "expected_page": "104-105",
+    "category": "fact_list"
+  },
+  {
+    "id": 11,
+    "question": "برای متوقف کردن خودرو، جعبه دنده باید در چه وضعیتی باشد؟",
+    "expected_keywords": ["خالص", "N"],
+    "expected_page": "84",
+    "category": "fact_procedure"
+  },
+  {
+    "id": 12,
+    "question": "سیستم تهویه خودکار چه کاری انجام می‌دهد؟",
+    "expected_keywords": ["دما", "خودکار"],
+    "expected_page": "9",
+    "category": "fact_explanation"
+  },
+  {
+    "id": 13,
+    "question": "شرایط لازم برای موثر بودن کمربند ایمنی چیست؟",
+    "expected_keywords": ["بدن", "سفت"],
+    "expected_page": "35",
+    "category": "fact_list"
+  },
+  {
+    "id": 14,
+    "question": "رنگ روغن موتور توصیه‌شده برای پژو ۲۰۷ چیست؟",
+    "expected_keywords": [],
+    "expected_page": null,
+    "category": "out_of_scope",
+    "note": "این اطلاعات احتمالاً در این سند به این شکل وجود ندارد - تست صداقت مدل در عدم پاسخ نادرست"
+  },
+  {
+    "id": 15,
+    "question": "ظرفیت روغن موتور در گیربکس دستی چند لیتر است؟",
+    "expected_keywords": ["3", "4","۳", "۴"],
+    "expected_page": "123-124",
+    "category": "table_lookup",
+    "note": "این جدول مشخصات فنی موتور در استخراج اولیه به‌هم‌ریخته به نظر می‌رسد (ستون‌ها به‌خوبی تفکیک نشده‌اند)؛ این سوال هم برای تست بازیابی و هم برای ارزیابی کیفیت واقعی این جدول خاص طراحی شده است"
+  }
+]
