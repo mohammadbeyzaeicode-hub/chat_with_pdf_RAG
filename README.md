@@ -234,3 +234,4 @@ MIT License — free to use and extend.
 ## Demo
 ![Demo](resume/Screenshot_2026714_022525.png)
 ![Demo](resume/Screenshot_2026714_022649.png)
+![Demo](resume/Screenshot_2026714_022751.png)
