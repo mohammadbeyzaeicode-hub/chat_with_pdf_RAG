@@ -16,7 +16,7 @@ embedded_hierarchical_chunks_2.json
 embedded_chunks.json
 output_chunks_1.json
 # فایل‌های موقت
-*.png
+# *.png
 *.log
 eval_results.json
 
